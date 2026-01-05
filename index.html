@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>La Casetta Rosa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /* RESET BASE */
+    body {
+      margin: 0;
+      font-family: 'Sans', serif;
+    }
+
+    /* MENU ORIZZONTALE */
+    header {
+      background-color: #c79ec4;
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    nav img {
+      height: 50px;
+      margin-right: 30px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* SEZIONI */
+    section {
+      padding: 60px 20px;
+    }
+
+    section:nth-child(even) {
+      background-color: #f4f4f4;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER CON MENU -->
+  <header>
+    <nav>
+      <!-- LOGO CLICCABILE -->
+      <a href="#home">
+        <img src="immagini/logo.jpg" alt="Logo BnB Il Belvedere">
+      </a>
+
+      <!-- MENU ORIZZONTALE -->
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#belvedere">Il Belvedere</a></li>
+        <li><a href="#vicolo">Il Vicolo</a></li>
+        <li><a href="#chi-siamo">Chi Siamo</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+        <li><a href="#prenotazione">Prenotazione</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1>BnB Il Belvedere</h1>
+    <p>Benvenuti nel nostro Bed & Breakfast.</p>
+  </section>
+
+  <!-- IL BELVEDERE -->
+  <section id="belvedere">
+    <h2>Il Belvedere</h2>
+    <p>Descrizione della struttura Il Belvedere.</p>
+  </section>
+
+  <!-- IL VICOLO -->
+  <section id="vicolo">
+    <h2>Il Vicolo</h2>
+    <p>Descrizione della struttura Il Vicolo.</p>
+  </section>
+
+  <!-- CHI SIAMO -->
+  <section id="chi-siamo">
+    <h2>Chi siamo</h2>
+    <p>La nostra storia e la nostra passione per l’ospitalità.</p>
+  </section>
+
+  <!-- CONTATTI -->
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Email: casettarosa.sanvenanzo@gmail.com</p>
+    <p>Telefono: +39 338 8992022</p>
+  </section>
+
+  <!-- PRENOTAZIONE -->
+  <section id="prenotazione">
+    <h2>Prenotazione</h2>
+    <p>Scrivici o chiamaci per prenotare il tuo soggiorno.</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>P. IVA: 12345678901 | CIR: XXXXXXX | CIN: XXXXXXX</p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="#">Credits</a>
+    </p>
+  </footer>
+
+</body>
+</html>
